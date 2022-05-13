@@ -28,3 +28,4 @@ for i in res:
     query = "INSERT INTO albums (id, title, readable) VALUES (?, ?, ?)"
     cursor.execute(query, data)
     conn.commit()
+conn.close()
